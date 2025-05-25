@@ -92,3 +92,10 @@
   proxy_set_header Host $host;
   proxy_cache_bypass $http_upgrade;
   }
+
+# Adding a custom domain name
+
+- purchased domain name from godaddy
+- signup on cloudflare & add a new domain name
+- change the nameservers on godaddy and poit to cloudflare
+- wait for sometime till your name servers are updated
