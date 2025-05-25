@@ -56,7 +56,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">First Name</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none outline-0"
+                                        className="input focus:outline-hidden"
                                         value={firstName}
                                         onChange={(e) => {
                                             setFirstName(e.target.value);
@@ -67,7 +67,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">Last Name</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none"
+                                        className="input focus:outline-hidden"
                                         value={lastName}
                                         onChange={(e) => {
                                             setLastName(e.target.value);
@@ -78,7 +78,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">Photo URL</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none"
+                                        className="input focus:outline-hidden"
                                         value={photoUrl}
                                         onChange={(e) => {
                                             setPhotoUrl(e.target.value);
@@ -89,7 +89,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">Age</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none"
+                                        className="input focus:outline-hidden"
                                         value={age}
                                         onChange={(e) => {
                                             setAge(e.target.value);
@@ -100,7 +100,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">Gender</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none"
+                                        className="input focus:outline-hidden"
                                         value={gender}
                                         onChange={(e) => {
                                             setGender(e.target.value);
@@ -111,7 +111,7 @@ const EditProfile = ({ user }) => {
                                     <legend className="fieldset-legend text-left">About</legend>
                                     <input
                                         type="text"
-                                        className="input outline-none"
+                                        className="input focus:outline-hidden"
                                         value={about}
                                         onChange={(e) => {
                                             setAbout(e.target.value);
