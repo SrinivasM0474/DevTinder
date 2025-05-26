@@ -33,7 +33,7 @@ const UserCard = ({ user }) => {
                 {age && gender && <p>{age}{", "}{gender}</p>}
                 <p className="py-1">{about}</p>
                 <div className="card-actions justify-center mt-2">
-                    {!location.pathname === "/profile" &&
+                    {location.pathname !== "/profile" &&
                         <>
                             <button
                                 className="btn btn-primary"

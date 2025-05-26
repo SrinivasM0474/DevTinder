@@ -99,3 +99,12 @@
 - signup on cloudflare & add a new domain name
 - change the nameservers on godaddy and poit to cloudflare
 - wait for sometime till your name servers are updated
+
+# Sending Emails via SES
+
+- Create IAM user
+- Give Access to AmazonSESFullAccess
+- Verify your domain name
+- Verify your email address
+- Install AWS SDK - v3
+- Code Example https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
