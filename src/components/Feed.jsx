@@ -22,7 +22,7 @@ const Feed = () => {
   }, []);
 
   if (!feed || feed.length === 0) {
-    return <div className="flex flex-col items-center justify-center pt-10">
+    return <div className="flex flex-col items-center justify-center py-10">
       <h2 className="text-2xl font-bold">No users found in the feed !!!</h2>
     </div>;
   }

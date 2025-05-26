@@ -22,7 +22,7 @@ const Connections = () => {
 
     if (!connetions || connetions.length === 0) {
         return (
-            <div className="flex flex-col items-center justify-center pt-10">
+            <div className="flex flex-col items-center justify-center py-10">
                 <p className="text-lg">No connections found.</p>
             </div>
         );
@@ -30,7 +30,7 @@ const Connections = () => {
 
     return (
         <div>
-            <h1 className="text-2xl font-bold text-center mt-2">Your Connections</h1>
+            <h1 className="text-2xl font-bold text-center mt-4">Your Connections</h1>
             <div className="flex items-center flex-col justify-around pt-4 flex-wrap">
                 {
                     connetions.map((connection) => {

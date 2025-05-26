@@ -35,10 +35,7 @@ const Body = () => {
     return (
         <div>
             <NavBar />
-            <div className="h-[calc(100vh-130px)] overflow-y-auto">
-
-                <Outlet />
-            </div>
+            <Outlet />
             <Footer />
         </div>
     )
