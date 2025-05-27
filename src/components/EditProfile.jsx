@@ -123,7 +123,7 @@ const EditProfile = ({ user }) => {
                                 </p>
                             </div>
 
-                            <div className="card-actions">
+                            <div className="card-actions mt-2.5">
                                 <button className="btn btn-primary" onClick={saveProfile} >
                                     Save Profile
                                 </button>
