@@ -166,3 +166,7 @@
 - Build the UI for a chat window on /chat/:targetUserId
 - Setup socket.io in backend
 - npm i socket.io
+- Setup frontend socket.io-client
+- Initiliaze the chat by creating room
+- Create Socket Connection
+-
