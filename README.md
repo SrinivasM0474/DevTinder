@@ -77,7 +77,7 @@
   - config nginx - sudo nano /etc/nginx/sites-available/default
   - restart nginx - sudo systemctl restart nginx
   - Modify the BASEURl in fronend project to "/api"
-  - pm2 restart
+  - pm2 restart (eg: pm2 restart 0)
   - **\***Afer added .env file in application, we need to create .env file manually in the production server
   - To create .env file in server user cmd sudo nano .env and copy paste the code in that and save
 
